@@ -30,3 +30,13 @@ while True:
 	print(readValue)
 		
 	sleep(.2)
+
+
+'''
+GPIO.add_event_detect(PIN, GPIO.FALLING, callback=myfunc
+# Can use RISING too
+
+
+def myfunc(sentByPin):
+	# blah
+'''
